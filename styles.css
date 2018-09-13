@@ -1,6 +1,7 @@
 .portfolio-header {
   position: relative;
   background-image: url(images/header-bg.jpg);
+  background-repeat: repeat;
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -8,6 +9,15 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.main-background {
+  background-color: rgba( 154, 214, 167, 0.3 );
+  height: 100%;
+}
+
+.mdl-layout__header {
+  background-color: rgba( 154, 214, 167, 0.2 ); !important;
 }
 
 .mdl-layout__title {
@@ -163,7 +173,26 @@ img.article-image {
   margin: auto;
 }
 
-footer {
-  background-image: url(images/footer-background.png);
-  background-size: cover;
+.mdl-mini-footer {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba( 255, 255, 255, 0.3) !important;
+}
+
+.mdl-mini-footer a {
+  color: rgb(0,0,0) !important;
+  font-weight: bold;
+  height: 15px;
+}
+
+.mdl-card__title {
+    height: 70px;
+}
+
+.mdl-card__title-text {
+  font-size: 1.0em !important;
 }

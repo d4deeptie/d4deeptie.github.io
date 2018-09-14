@@ -38,6 +38,7 @@
   height: 150px;
   width: 150px;
   margin: auto auto 10px;
+  border-radius: 50%;
 }
 
 .is-compact .portfolio-logo {
@@ -233,8 +234,8 @@ img.article-image {
   position: absolute;
   width: 100%;
   height: 100%;
-  /*background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url(https://38.media.tumblr.com/tumblr_m00c3czJkM1qbukryo1_500.gif);*/
-  background: linear-gradient(to bottom, rgba(232, 155, 129, 0.8) 10%, rgba(140, 107, 133, 0.8) 30%, rgb(99, 91, 146) 50%, #9E9E9E 80%, rgba(15, 14, 14, .8) 100%), url(images/header-bg.jpg);
+  /*background: linear-gradient(to bottom, rgba(232, 155, 129, 0.8) 10%, rgba(140, 107, 133, 0.8) 30%, rgb(99, 91, 146) 50%, #9E9E9E 80%, rgba(15, 14, 14, .8) 100%), url(images/header-bg.jpg);*/
+  background: rgba(181, 104, 171, 0.5);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;

@@ -196,6 +196,38 @@ img.article-image {
 .mdl-card__title-text {
   font-size: 1.0em !important;
 }
+
+.iconsize {
+    height: 75px;
+    width: 75px;
+}
+
+.centeredmenu ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+.centeredmenu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+.centeredmenu ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   color:#000;
+   line-height:1.3em;
+}
 /*
 .mdl-layout__header--waterfall {
   overflow: auto !important;

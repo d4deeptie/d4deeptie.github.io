@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/css/lightgallery.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js"></script>
 </head>
 
 <body>
@@ -28,6 +31,7 @@
                 <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
                     <a class="mdl-navigation__link" href="index.html">About</a>
                     <a class="mdl-navigation__link is-active" href="portfolio.html">Portfolio</a>
+                    <a class="mdl-navigation__link" href="experience.html">Experience</a>
                     <a class="mdl-navigation__link" href="contact.html">Contact</a>
                 </nav>
             </div>
@@ -36,85 +40,54 @@
             <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
                 <a class="mdl-navigation__link" href="index.html">About</a>
                 <a class="mdl-navigation__link is-active" href="portfolio.html">Portfolio</a>
+                <a class="mdl-navigation__link" href="experience.html">Experience</a>
                 <a class="mdl-navigation__link" href="contact.html">Contact</a>
             </nav>
         </div>
         <main class="mdl-layout__content main-background">
-            <hr>
-            <h4 style="text-align:center">Work</h4>
-            <hr>
-            <div class="mdl-grid portfolio-max-width">
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src="images/zara-logo.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Customer Representative Intern</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                      <p><strong>Zara, Iditex</strong></p>
-                      <p><strong>20 June 2016 to 15 July 2016</strong></p>
-                      <ul>
-                        <li> To deliver an excellent in store experience to our customers </li>
-                        <li> To replenish the stock and maintain high standards of merchandise and product presentation</li>
-                        <li> To organize the stock room according to the standards. </li>
-                      </ul>
-                    </div>
-                    <!-- <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div> -->
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src="images/massumi.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Fashion Advisor Intern</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                      <p><strong>Massimo Dutti Retail India Private Limited, Inditex</strong></p>
-                      <p><strong>12 June 2017 to 12 July 2017</strong></p>
-                      <ul>
-                        <li> To deliver an excellent in store experience to our customers </li>
-                        <li> To replenish the stock and maintain high standards of merchandise and product presentation</li>
-                        <li> To organize the stock room according to the standards. </li>
-                      </ul>
-                    </div>
-                    <!-- <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div> -->
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/homecentre.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Management trainee- Concept Manager</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                      <p><strong>Home Centre, Landmark group India private limited</strong></p>
-                      <p><strong>11 June 2018 to present</strong></p>
-                      <ul>
-                        <li> To ensure the operational aspects of store. </li>
-                        <li> Maintain the full stock on floor, analyze the merchandise and know about fast moving goods.</li>
-                        <li> Make sure that planogram is followed properly. </li>
-                        <li> Do every day checklist and floor walk with supervisor. </li>
-                      </ul>
-                    </div>
-                    <!-- <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div> -->
-                </div>
-            </div>
-            <div class="mdl-grid portfolio-max-width">
-            </div>
-            <div class="mdl-grid portfolio-max-width">
-            </div>
+          <div id="lightgallery" class="mdl-grid portfolio-max-width">
+            <a href="images/interior-design/1.jpeg">
+                <img class="thumbnail" src="images/interior-design/1.jpeg" />
+            </a>
+            <a href="images/interior-design/2.jpeg">
+                <img class="thumbnail" src="images/interior-design/2.jpeg" />
+            </a>
+            <a href="images/interior-design/3.jpeg">
+                <img class="thumbnail" src="images/interior-design/3.jpeg" />
+            </a>
+            <a href="images/interior-design/4.jpeg">
+                <img class="thumbnail" src="images/interior-design/4.jpeg" />
+            </a>
+            <a href="images/interior-design/5.jpeg">
+                <img class="thumbnail" src="images/interior-design/5.jpeg" />
+            </a>
+            <a href="images/interior-design/6.jpeg">
+                <img class="thumbnail" src="images/interior-design/1.jpeg" />
+            </a>
+            <a href="images/interior-design/7.jpeg">
+                <img class="thumbnail" src="images/interior-design/2.jpeg" />
+            </a>
+            <a href="images/interior-design/8.jpeg">
+                <img class="thumbnail" src="images/interior-design/3.jpeg" />
+            </a>
+            <a href="images/interior-design/9.jpeg">
+                <img class="thumbnail" src="images/interior-design/4.jpeg" />
+            </a>
+            <a href="images/interior-design/10.jpeg">
+                <img class="thumbnail" src="images/interior-design/5.jpeg" />
+            </a>
+            <a href="images/interior-design/11.jpeg">
+                <img class="thumbnail" src="images/interior-design/1.jpeg" />
+            </a>
+            <a href="images/interior-design/12.jpeg">
+                <img class="thumbnail" src="images/interior-design/2.jpeg" />
+            </a>
+          </div>
         </main>
     </div>
     <footer class="mdl-mini-footer">
       <div style="width:100%;text-align:center">
-        <a href="#">Powered By @crossdsection</a>
+        <a href="https://crossdsection.github.io">Powered By &#169; crossdsection</a>
       </div>
     </footer>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>

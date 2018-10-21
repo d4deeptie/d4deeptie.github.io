@@ -108,3 +108,7 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
+
+$(document).ready(function() {
+      $("#lightgallery").lightGallery();
+  });
